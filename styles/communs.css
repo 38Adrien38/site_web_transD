@@ -31,9 +31,14 @@ h2 {
   text-align: center;
 }
 
+
 .barre-de-menu > li {
   list-style: none;
   display: inline;
+}
+
+.barre-de-menu > li > img {
+  width: 100px;
 }
 
 .barre-de-menu > li > a {

@@ -1,13 +1,7 @@
 @import url("communs.css");
 
-main {
-  text-align: center;
-}
-
-.actions > a {
-  margin: 10px;
-}
-
-.actions > a > img {
-  height: 50px;
-}
+#galerapagos {
+    width: 100%; /* Définit la largeur de l'image à 100% de la largeur de son conteneur */
+    height: auto; /* Garde le ratio de l'image */
+    display: block; /* Assure que l'image est affichée comme un bloc */
+  }
