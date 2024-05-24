@@ -1,2 +1,12 @@
 @import url("communs.css");
 
+
+h2 {
+    background-color: var(--couleur-0);
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: var(--couleur-0);
+}

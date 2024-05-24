@@ -1,3 +1,11 @@
 @import url("communs.css");
 
+h2 {
+    background-color: var(--couleur-0);
+    color: white;
+    text-align: center;
+}
 
+#bilan {
+    font-style: italic;
+}
