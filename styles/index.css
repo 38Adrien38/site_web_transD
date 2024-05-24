@@ -1,7 +1,54 @@
 @import url("communs.css");
 
+#tuteur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tuteur img {
+  margin: 0 20px;
+  height: 250px;
+  width: auto;
+}
+
+#nous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nous img {
+  margin: 0 20px;
+  height: 250px;
+  width: auto;
+}
+
+#banniere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #galerapagos {
-    width: 100%; /* Définit la largeur de l'image à 100% de la largeur de son conteneur */
-    height: auto; /* Garde le ratio de l'image */
-    display: block; /* Assure que l'image est affichée comme un bloc */
-  }
+  width: 50%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--couleur-0);
+  text-align: center;
+}
+
+h2 {
+  background-color: var(--couleur-0);
+  color: white;
+  text-align: center;
+}
+
+#photo {
+  text-align: center;
+  color: var(--couleur-0);
+}

@@ -1,2 +1,18 @@
 @import url("communs.css");
 
+#titre {
+    text-align: center;
+    font-weight: bold;
+}
+
+#graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#graph img {
+    margin: 20px;
+    height: 500px;
+    width: auto;
+}

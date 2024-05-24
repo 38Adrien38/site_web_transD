@@ -11,6 +11,7 @@
   <!-- le menu de navigation -->
   <nav>
     <ul class="barre-de-menu">
+      <li><img src="./images/logo_galerapagos.png" alt="logo galerapagos"></li>
       <li><a href="index.html">Accueil</a></li>
       <li><a href="etude.html" class="actuel">Présentation de l'étude</a></li>
       <li><a href="deroulement.html">Déroulement du projet</a></li>
@@ -20,23 +21,85 @@
     </ul>
   </nav>
 
-  <div>
-    <h1>Présentation de l'étude scientifique</h1>
-    <p>
-      ed ut tum ad senem senex de senectute, sic hoc libro ad amicum amicissimus scripsi
-      de
-      amicitia.
-      Tum est Cato locutus, quo erat nemo fere senior temporibus illis, nemo prudentior; nunc Laelius et sapiens
-      (sic
-      enim est
-      habitus) et amicitiae gloria excellens de amicitia loquetur. Tu velim a me animum parumper avertas, Laelium
-      loqui ipsum
-      putes. C. Fannius et Q. Mucius ad socerum veniunt post mortem Africani; ab his sermo oritur, respondet
-      Laelius,
-      cuius tota
-      disputatio est de amicitia, quam legens te ipse cognosces.
-    </p>
+  <div id="contenu">
+    <div>
+      <h1>Présentation de l'étude scientifique</h1>
+      <p>
+        Cette étude vise à analyser le niveau de confiance de l'humain pendant qu'il collabore avec une intelligence
+        artificielle en fonction de son niveau de performance.La collaboration est un processus pouvant émerger au sein
+        d’une équipe définie comme
+        un « ensemble distinct de deux personnes ou plus qui interagissent de manière dynamique,
+        interdépendante et adaptative en vue d'atteindre un but/objet/mission commun(e) et
+        apprécié(e), à qui l'on a attribué des rôles ou des fonctions spécifiques, et dont la durée de vie
+        est limitée ». Ansi, l'équipe de recherche a développé une expérience basé sur le jeu de société
+        Galerapagos.
+        <br> <br>
+        Lors d'une partie, l'équipe est constituée de deux joueurs : un agent humain et une
+        intelligence artificielle. Les participants sont informés qu'ils interagissent avec une
+        intelligence artificielle. Le jeu, implémenté en C# permet aux participants de
+        contrôler des personnages : l'humain contrôle "Moi" et l'IA contrôle "IA". Le jeu nécessite au
+        moins trois joueurs, le troisième étant un personnage virtuel nommé Wilson. Les décisions de Wilson sont
+        alternées entre les deux décideurs. Les décisions de l'équipe sont prises collectivement et les actions sont
+        réparties entre tous les personnages.
+        <br> <br>
+        Par ailleurs, certaines règles du jeu ont été modifiées pour s'adapter à l'étude en cours. Le
+        jeu se joue tour par tour, avec chaque joueur réalisant une action par tour. L'équipe a deux
+        objectifs : survivre chaque tour en consommant une ressource d'eau et une de poisson par joueur, et quitter
+        l'île en construisant un radeau par joueur. Chaque joueur peut collecter de l'eau, de la nourriture ou avancer
+        la construction d'un radeau. La quantité d'eau collectée dépend des conditions météorologiques du tour, variant
+        de 0 à 3 unités. L'IA connaît les probabilités des quantités d'eau disponibles pour le tour suivant. La quantité
+        de poisson collectée varie aléatoirement entre 1 et 3 unités.
+        <br> <br>
+        Concernant la construction d'un radeau il est
+        nécessaire d'obtenir 6
+        de bois. Un joueur peut contribuer en apportant un bois à la fois et peut prendre jusqu'à 5 risques
+        supplémentaires. Prendre un risque augmente le nombre de bois que l'on peut récupèrer mais augmente
+        également la probabilité de tomber malade, avec une chance sur six pour chaque risque pris. En cas de maladie,
+        les unités supplémentaires sont perdues et le joueur n'obtient qu'un seul bois pendant ce tour.
+        <br> <br>
+        Les deux décideurs communiquent leurs choix à travers une interface et peuvent argumenter et exprimer leurs
+        désaccords via un chat en temps réel. La partie prend fin quand la tempête arrive sur l'île ou si tous les
+        survivants partent avant de l'île. La tempête survient aléatoirement entre le 7ème et le 12ème tour. Les
+        expérimentateurs
+        contrôlent tous les tirages aléatoires et les conditions météorologiques du jeu.
+      </p>
+
+      <h2>Protocole</h2>
+      <p>
+        Chaque participant est soumis à une expérimentation d'une durée de 90 à 120
+        minutes, comprenant une explication de la tâche, un entraînement de 10 minutes avec le jeu Galerapagos, suivi de
+        cinq parties (Scénario 1 à Scénario 5) entrecoupées de questionnaires identiques. L'objectif est d'observer une
+        dégradation de la confiance, sa stabilisation et son rétablissement. Cette observation nécessite un état initial
+        de confiance élevée (phase 1), suivi d'une dégradation (phase 2) et enfin d'un rétablissement (phase 3).
+      </p>
+
+      <p>
+        Dans la phase 1, le système est parfait et communique efficacement, visant la meilleure solution à long terme
+        tout en respectant les objectifs à court terme. Les choix du système sont justifiés en fonction des objectifs
+        finaux de la mission. La confiance dans le système est établie par des interactions répétées. La phase 1
+        comprend deux parties de jeu successives.
+      </p>
+      <p>
+        En revanche, dans la phase 2, le système présente un niveau d'aptitude dégradé. La phase 2 est également divisée
+        en deux parties, et la confiance atteint son
+        minimum dans la dernière partie.
+      </p>
+      <p>
+        La dernière
+        phase examine la récupération de la confiance après une détérioration, sans mettre en place de stratégie de
+        rétablissement spécifique. L'hypothèse testée est que la confiance est plus difficile à regagner après une
+        exposition à un SA très dégradé qu'après une exposition à un SA simplement dégradé.
+      </p>
+      <br>
+      <p id="titre">Graphique représentant la confiance induite en fonction des phases et des parties</p>
+      <div id="graph">
+        <img src="./images/graph_confiance.png" alt="Graphique rétablissement de la confiance">
+      </div>
+
+      <br>
+    </div>
   </div>
+
 
   <footer>
     <div class="footerContainer">
