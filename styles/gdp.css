@@ -1,3 +1,25 @@
 @import url("communs.css");
 
 
+h2 {
+    background-color: var(--couleur-0);
+    color: white;
+    text-align: center;
+}
+
+
+#planning {
+    color: crimson;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    height: 220px;
+    width: auto;
+    margin: 0 20px;
+}

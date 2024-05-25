@@ -1,3 +1,16 @@
 @import url("communs.css");
 
+#wiki {
+    color: crimson;
+}
 
+#pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pdf embed {
+    width: 80%;
+    height: 600px;
+}
